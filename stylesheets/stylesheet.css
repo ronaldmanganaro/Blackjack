@@ -12,7 +12,8 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 700px;
+  text-align: justify;
   margin: 0 auto;
 }
 
@@ -161,6 +162,9 @@ pre {
   text-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
+}
+ p{
+   text-indent: 40px;
 }
 
 table {
