@@ -9,11 +9,9 @@ body {
 }
 
 /* General & 'Reset' Stuff */
-.center { margin: 0 auto; width: 400px; }
-
 .container {
   width: 90%;
-  max-width: 700px;
+  max-width: 600px;
   text-align: justify;
   margin: 0 auto;
 }
