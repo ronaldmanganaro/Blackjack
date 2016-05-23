@@ -1,0 +1,17 @@
+Values
+
+One = Ace
+Two = 2
+Three = 3
+.
+.
+Eleven = Jack
+Twelve = Queen
+Thirteen = King
+
+Suits
+
+Zero = Club
+One = Spade
+Two = Diamond
+Three = Hearts
