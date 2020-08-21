@@ -6,12 +6,16 @@
 Controller theController;
 
 Display::Display() {
-  if (!music.openFromFile("Media/Music.ogg"))
+  if (!music.openFromFile("Media/Music.ogg")) {
     std::cout << "could not find Music.ogg" << std::endl;
-  music.setLoop(true);
-  music.play();
+  } else {
+    music.setLoop(true);
+    music.play();
+  }
+  
   for (int i = 0; i < 4; i++)
     theName[i].setString("");
+  
   window.create(sf::VideoMode(600, 600), "Blackjack");
   createWindow(*this);
 }

@@ -18,7 +18,7 @@ class Model {
   sf::SoundBuffer buffer;
   sf::Sound sound;
   Display* theDisplay;
-  std::string names_[];
+  std::string names_[4];
   Player players_[4];
   int playerCount_;
   Deck vModelDeck_;
